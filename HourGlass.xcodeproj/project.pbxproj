@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0F9AFE286E64AD00AE259F /* Watch_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F9AFD286E64AD00AE259F /* Watch_screen.swift */; };
+		5E0F9B01286F50DC00AE259F /* TapViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F9B00286F50DC00AE259F /* TapViewWatch.swift */; };
+		5E0F9B03286F56C500AE259F /* TapViewGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F9B02286F56C500AE259F /* TapViewGallery.swift */; };
+		5E0F9B05286F579F00AE259F /* TapViewDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F9B04286F579F00AE259F /* TapViewDiscovery.swift */; };
+		5E0F9B07286FA38D00AE259F /* TapViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F9B06286FA38D00AE259F /* TapViewScreen.swift */; };
+		5EEC05A1286E4C4900F1B519 /* HourGlassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC05A0286E4C4900F1B519 /* HourGlassApp.swift */; };
+		5EEC05A3286E4C4900F1B519 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC05A2286E4C4900F1B519 /* ContentView.swift */; };
+		5EEC05A5286E4C4B00F1B519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEC05A4286E4C4B00F1B519 /* Assets.xcassets */; };
+		5EEC05A8286E4C4B00F1B519 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEC05A7286E4C4B00F1B519 /* Preview Assets.xcassets */; };
+		5EEC05B2286E4C4B00F1B519 /* HourGlassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC05B1286E4C4B00F1B519 /* HourGlassTests.swift */; };
+		5EEC05BC286E4C4B00F1B519 /* HourGlassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC05BB286E4C4B00F1B519 /* HourGlassUITests.swift */; };
+		5EEC05BE286E4C4B00F1B519 /* HourGlassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC05BD286E4C4B00F1B519 /* HourGlassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EEC05AE286E4C4B00F1B519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEC0595286E4C4900F1B519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEC059C286E4C4900F1B519;
+			remoteInfo = HourGlass;
+		};
+		5EEC05B8286E4C4B00F1B519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEC0595286E4C4900F1B519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEC059C286E4C4900F1B519;
+			remoteInfo = HourGlass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E0F9AFD286E64AD00AE259F /* Watch_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch_screen.swift; sourceTree = "<group>"; };
+		5E0F9B00286F50DC00AE259F /* TapViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewWatch.swift; sourceTree = "<group>"; };
+		5E0F9B02286F56C500AE259F /* TapViewGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewGallery.swift; sourceTree = "<group>"; };
+		5E0F9B04286F579F00AE259F /* TapViewDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewDiscovery.swift; sourceTree = "<group>"; };
+		5E0F9B06286FA38D00AE259F /* TapViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewScreen.swift; sourceTree = "<group>"; };
+		5EEC059D286E4C4900F1B519 /* HourGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEC05A0286E4C4900F1B519 /* HourGlassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourGlassApp.swift; sourceTree = "<group>"; };
+		5EEC05A2286E4C4900F1B519 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EEC05A4286E4C4B00F1B519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EEC05A7286E4C4B00F1B519 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EEC05AD286E4C4B00F1B519 /* HourGlassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HourGlassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEC05B1286E4C4B00F1B519 /* HourGlassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourGlassTests.swift; sourceTree = "<group>"; };
+		5EEC05B7286E4C4B00F1B519 /* HourGlassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HourGlassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEC05BB286E4C4B00F1B519 /* HourGlassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourGlassUITests.swift; sourceTree = "<group>"; };
+		5EEC05BD286E4C4B00F1B519 /* HourGlassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourGlassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEC059A286E4C4900F1B519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC05AA286E4C4B00F1B519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC05B4286E4C4B00F1B519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0F9AFF286F4FF600AE259F /* TapViewDetails_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5E0F9B00286F50DC00AE259F /* TapViewWatch.swift */,
+				5E0F9B02286F56C500AE259F /* TapViewGallery.swift */,
+				5E0F9B04286F579F00AE259F /* TapViewDiscovery.swift */,
+				5E0F9B06286FA38D00AE259F /* TapViewScreen.swift */,
+			);
+			path = TapViewDetails_Screen;
+			sourceTree = "<group>";
+		};
+		5E0F9B08287166C100AE259F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC05A0286E4C4900F1B519 /* HourGlassApp.swift */,
+				5EEC05A2286E4C4900F1B519 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5E0F9B0A28716A7B00AE259F /* ViewGallery_Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewGallery_Screen;
+			sourceTree = "<group>";
+		};
+		5EEC0594286E4C4900F1B519 = {
+			isa = PBXGroup;
+			children = (
+				5EEC059F286E4C4900F1B519 /* HourGlass */,
+				5EEC05B0286E4C4B00F1B519 /* HourGlassTests */,
+				5EEC05BA286E4C4B00F1B519 /* HourGlassUITests */,
+				5EEC059E286E4C4900F1B519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEC059E286E4C4900F1B519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC059D286E4C4900F1B519 /* HourGlass.app */,
+				5EEC05AD286E4C4B00F1B519 /* HourGlassTests.xctest */,
+				5EEC05B7286E4C4B00F1B519 /* HourGlassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EEC059F286E4C4900F1B519 /* HourGlass */ = {
+			isa = PBXGroup;
+			children = (
+				5E0F9B0A28716A7B00AE259F /* ViewGallery_Screen */,
+				5E0F9AFD286E64AD00AE259F /* Watch_screen.swift */,
+				5E0F9B08287166C100AE259F /* Main */,
+				5E0F9AFF286F4FF600AE259F /* TapViewDetails_Screen */,
+				5EEC05A4286E4C4B00F1B519 /* Assets.xcassets */,
+				5EEC05A6286E4C4B00F1B519 /* Preview Content */,
+			);
+			path = HourGlass;
+			sourceTree = "<group>";
+		};
+		5EEC05A6286E4C4B00F1B519 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC05A7286E4C4B00F1B519 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EEC05B0286E4C4B00F1B519 /* HourGlassTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC05B1286E4C4B00F1B519 /* HourGlassTests.swift */,
+			);
+			path = HourGlassTests;
+			sourceTree = "<group>";
+		};
+		5EEC05BA286E4C4B00F1B519 /* HourGlassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC05BB286E4C4B00F1B519 /* HourGlassUITests.swift */,
+				5EEC05BD286E4C4B00F1B519 /* HourGlassUITestsLaunchTests.swift */,
+			);
+			path = HourGlassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EEC059C286E4C4900F1B519 /* HourGlass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEC05C1286E4C4B00F1B519 /* Build configuration list for PBXNativeTarget "HourGlass" */;
+			buildPhases = (
+				5EEC0599286E4C4900F1B519 /* Sources */,
+				5EEC059A286E4C4900F1B519 /* Frameworks */,
+				5EEC059B286E4C4900F1B519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HourGlass;
+			productName = HourGlass;
+			productReference = 5EEC059D286E4C4900F1B519 /* HourGlass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EEC05AC286E4C4B00F1B519 /* HourGlassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEC05C4286E4C4B00F1B519 /* Build configuration list for PBXNativeTarget "HourGlassTests" */;
+			buildPhases = (
+				5EEC05A9286E4C4B00F1B519 /* Sources */,
+				5EEC05AA286E4C4B00F1B519 /* Frameworks */,
+				5EEC05AB286E4C4B00F1B519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEC05AF286E4C4B00F1B519 /* PBXTargetDependency */,
+			);
+			name = HourGlassTests;
+			productName = HourGlassTests;
+			productReference = 5EEC05AD286E4C4B00F1B519 /* HourGlassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EEC05B6286E4C4B00F1B519 /* HourGlassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEC05C7286E4C4B00F1B519 /* Build configuration list for PBXNativeTarget "HourGlassUITests" */;
+			buildPhases = (
+				5EEC05B3286E4C4B00F1B519 /* Sources */,
+				5EEC05B4286E4C4B00F1B519 /* Frameworks */,
+				5EEC05B5286E4C4B00F1B519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEC05B9286E4C4B00F1B519 /* PBXTargetDependency */,
+			);
+			name = HourGlassUITests;
+			productName = HourGlassUITests;
+			productReference = 5EEC05B7286E4C4B00F1B519 /* HourGlassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEC0595286E4C4900F1B519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5EEC059C286E4C4900F1B519 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					5EEC05AC286E4C4B00F1B519 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 5EEC059C286E4C4900F1B519;
+					};
+					5EEC05B6286E4C4B00F1B519 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 5EEC059C286E4C4900F1B519;
+					};
+				};
+			};
+			buildConfigurationList = 5EEC0598286E4C4900F1B519 /* Build configuration list for PBXProject "HourGlass" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EEC0594286E4C4900F1B519;
+			productRefGroup = 5EEC059E286E4C4900F1B519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEC059C286E4C4900F1B519 /* HourGlass */,
+				5EEC05AC286E4C4B00F1B519 /* HourGlassTests */,
+				5EEC05B6286E4C4B00F1B519 /* HourGlassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EEC059B286E4C4900F1B519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEC05A8286E4C4B00F1B519 /* Preview Assets.xcassets in Resources */,
+				5EEC05A5286E4C4B00F1B519 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC05AB286E4C4B00F1B519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC05B5286E4C4B00F1B519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEC0599286E4C4900F1B519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0F9B01286F50DC00AE259F /* TapViewWatch.swift in Sources */,
+				5E0F9B05286F579F00AE259F /* TapViewDiscovery.swift in Sources */,
+				5E0F9B03286F56C500AE259F /* TapViewGallery.swift in Sources */,
+				5E0F9AFE286E64AD00AE259F /* Watch_screen.swift in Sources */,
+				5EEC05A3286E4C4900F1B519 /* ContentView.swift in Sources */,
+				5EEC05A1286E4C4900F1B519 /* HourGlassApp.swift in Sources */,
+				5E0F9B07286FA38D00AE259F /* TapViewScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC05A9286E4C4B00F1B519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEC05B2286E4C4B00F1B519 /* HourGlassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC05B3286E4C4B00F1B519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEC05BC286E4C4B00F1B519 /* HourGlassUITests.swift in Sources */,
+				5EEC05BE286E4C4B00F1B519 /* HourGlassUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EEC05AF286E4C4B00F1B519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEC059C286E4C4900F1B519 /* HourGlass */;
+			targetProxy = 5EEC05AE286E4C4B00F1B519 /* PBXContainerItemProxy */;
+		};
+		5EEC05B9286E4C4B00F1B519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEC059C286E4C4900F1B519 /* HourGlass */;
+			targetProxy = 5EEC05B8286E4C4B00F1B519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EEC05BF286E4C4B00F1B519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EEC05C0286E4C4B00F1B519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EEC05C2286E4C4B00F1B519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourGlass/Preview Content\"";
+				DEVELOPMENT_TEAM = L3TP44ZNL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gchacon.HourGlass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EEC05C3286E4C4B00F1B519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourGlass/Preview Content\"";
+				DEVELOPMENT_TEAM = L3TP44ZNL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gchacon.HourGlass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EEC05C5286E4C4B00F1B519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3TP44ZNL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gchacon.HourGlassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HourGlass.app/HourGlass";
+			};
+			name = Debug;
+		};
+		5EEC05C6286E4C4B00F1B519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3TP44ZNL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gchacon.HourGlassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HourGlass.app/HourGlass";
+			};
+			name = Release;
+		};
+		5EEC05C8286E4C4B00F1B519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3TP44ZNL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gchacon.HourGlassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HourGlass;
+			};
+			name = Debug;
+		};
+		5EEC05C9286E4C4B00F1B519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3TP44ZNL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gchacon.HourGlassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HourGlass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEC0598286E4C4900F1B519 /* Build configuration list for PBXProject "HourGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEC05BF286E4C4B00F1B519 /* Debug */,
+				5EEC05C0286E4C4B00F1B519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEC05C1286E4C4B00F1B519 /* Build configuration list for PBXNativeTarget "HourGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEC05C2286E4C4B00F1B519 /* Debug */,
+				5EEC05C3286E4C4B00F1B519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEC05C4286E4C4B00F1B519 /* Build configuration list for PBXNativeTarget "HourGlassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEC05C5286E4C4B00F1B519 /* Debug */,
+				5EEC05C6286E4C4B00F1B519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEC05C7286E4C4B00F1B519 /* Build configuration list for PBXNativeTarget "HourGlassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEC05C8286E4C4B00F1B519 /* Debug */,
+				5EEC05C9286E4C4B00F1B519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EEC0595286E4C4900F1B519 /* Project object */;
+}
